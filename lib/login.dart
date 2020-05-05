@@ -16,9 +16,21 @@ class _LoginPageState extends State<LoginPage> {
           padding: EdgeInsets.symmetric(horizontal: 24.0),
           children: <Widget>[
             SizedBox(height: 80.0),
-            Row(
+
+            /**
+             * Row for horizontally and where as Column for vertically
+             * */
+
+            Column(
               children: <Widget>[
-                Image.asset('assets/retret.png'),
+
+                /**
+                 * images need to defined in pubsec and assets file and folder respectively
+                 *
+                 * use css to design layout of text
+                 * */
+
+                Image.asset('assets/diamond.png'),
                 SizedBox(height: 16.0),
                 Text('Dry Fruits Grocery'),
               ],
